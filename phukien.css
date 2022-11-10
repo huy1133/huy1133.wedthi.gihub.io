@@ -1,0 +1,341 @@
+body{
+    font-family: Arial;
+    margin: auto;
+} 
+#box1ch{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+#box1{
+    height: 30px;
+    width: 100%;
+    background-color: white;
+}
+#box1p{
+    margin: 0 45%;
+}
+#box1p p{
+    font-size: 20px;
+}
+#box2{
+    height: 40px;
+    background-color: black;
+    width: 100%;
+}
+a:hover{
+    color: #ddbc95;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 6.2%;
+    color: white;
+}
+#thua{
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    
+}
+#gios{
+    width: 200px;
+    height: 70px;
+    margin-top: 470px;
+}
+#tims{
+    width: 200px;
+    height: 70px;
+    margin-top: 4px;
+}
+#tims, #gios{
+    margin-left: 1450px;
+}
+.gios1, .tims1{
+    width: 60px;
+    height: 60px;
+    background-color:#ddbc95;
+    border-radius: 50%;
+    float: left;
+}
+.gios2, .tims2{
+    background-color: black;
+    color: white;
+    float: right;
+    width: 97px;
+    height: 25px;
+    border-radius: 100px;
+    transition: 0s;
+    visibility: hidden;
+    opacity: 0;
+}
+.gios2 h3,.tims2 h3{
+    margin: 4px 10px;
+    font-size: 99%
+}
+#gios:hover .gios2, #tims:hover .tims2{
+    transform: translate(-210px, 15px);
+    visibility:visible;
+    opacity: 100;
+}
+.tims1:hover i, .gios1:hover i{
+    color: #f2726a;
+}
+#box3{
+    width: 100%;
+    height: 580px;
+}
+#box3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#box4{
+    height: 120px;
+    width: 3040px;
+    background-color: #ececec;
+}
+#box4{
+    width: 100%;
+    height: 60px;
+    background-color: #ececec;
+}
+
+#box4 p, #box4 i{
+    float: left;
+}
+#box4 p{
+    margin: 20px 0px;
+}
+#box4 i{
+    margin: 10px 0px;
+}
+#box4 div{
+    width: 230px;
+    margin: 0 135px;
+    float: left;
+}
+#box4 p{font-size: 20px;}
+#box4 i{font-size: 40px;}
+.box5{
+    width: 70%;
+    height: 1150px;
+    margin: auto;
+}
+.box5a{
+    background-color: white;
+    width: 23%;
+    height: 350px;
+    float: left;
+    margin: 2% 1%;
+}
+#ttd{
+    margin: 0 40%;
+}
+#tts{
+    margin: 0 37%;
+}
+#tta{
+    margin: 0 41%;
+}
+.anh{
+    width: 100%;
+    height: 70%;
+    transition: 0.5s;
+}
+.anh img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.anh:hover{
+    width: 100%;
+    height: 100%;
+}
+.anh:hover .mau, .anh:hover .n1{
+    visibility: hidden;
+    opacity: 0;
+}
+.mau{
+    display: flex;
+    margin-bottom: 20px;
+    transition: 0s;
+    margin: -1% 0;
+}
+.mau span{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 1px solid black;
+}
+.xam{
+    background-color: #C1C1C1;
+}
+.anh p{
+    font-size: 110%;
+    margin: 2%;
+}
+.vang{
+    background-color: #E5AE88;
+}
+.trang{
+    background-color: #ececec;
+}
+.black{
+    background-color: black;
+}
+.xanh{
+    background-color: lightskyblue;
+}
+.m1{
+    font-size: 120%;
+    margin: 0 4%;
+}
+.gio, .tim {
+    visibility: hidden;
+    opacity: 0;
+    font-size: 25px;
+    position: absolute;
+    transform: 0.3s;
+}
+.anh:hover .gio, .anh:hover .tim{
+    visibility:visible;
+    opacity: 100;
+}
+.gio{
+    margin: 15px 200px;
+}
+.tim{
+    margin: 15px 15px;
+}
+.gio:hover, .tim:hover{
+    color: #f2726a;
+}
+#box7{
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    background-color: #ececec;
+}
+.box7a{
+    width: 50%;
+    height: 65%;
+    background-color: white;
+    margin: auto;
+}
+.box7a1{
+    width: 100%;
+    height: 10%;
+    background-color: #ececec;
+}
+#box7b{
+    width: 50%;
+    height: 60px;
+    background-color: white;
+    margin: 2% auto;
+}
+.box7a2{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+}
+.box7a12{
+    font-size: 200%;
+}
+.box7a11{
+    font-size: 119%;
+}
+.box7a2 input{
+    font-size: 231%;
+}
+#box7b i{
+    color: black;
+    font-size: 200%;
+    margin: 2% -0.8%;
+    transition: 0.3s;
+}
+#box7b i:hover{
+    color: #f2726a;
+    transform: translate(10px,-10px);
+}
+.box7c{
+    background-color: black;
+    height: 18%;
+    width: 100%;
+}
+#box6{
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    background-color: #ececec;
+}
+.box6a{
+    width: 50%;
+    height: 65%;
+    background-color: white;
+    margin: auto;
+}
+.box6a1{
+    width: 100%;
+    height: 10%;
+    background-color: #ececec;
+}
+#box6b{
+    width: 50%;
+    height: 60px;
+    background-color: white;
+    margin: 2% auto;
+}
+.box6a2{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+}
+.box6a12{
+    font-size: 200%;
+}
+.box6a11{
+    font-size: 119%;
+}
+.box6a13{
+    font-size: 119%;
+    margin: 0 137px;
+}
+.box6d{
+    margin: auto;
+    width: 60%;
+    height: 50px;
+}
+.box6d1{
+    width: 80%;
+    height: 44px;
+}
+.box6d2{
+    width: 16%;
+    height: 46px;
+}
+#box6b i{
+    color: black;
+    font-size: 200%;
+    margin: 2% -0.8%;
+    transition: 0.3s;
+}
+#box6b i:hover{
+    color: #f2726a;
+    transform: translate(10px,-10px);
+}
+.box6c{
+    background-color: black;
+    height: 18%;
+    width: 100%;
+}
+#box7{
+    width: 30%;
+    height: 50px;
+    background-color: white;
+}
+#box7 p{
+    margin: 10px 35px;
+    font-size: 130%;
+}

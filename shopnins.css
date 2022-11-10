@@ -1,0 +1,157 @@
+body{
+    font-family: Arial;
+    margin: auto;
+}
+#box1ch{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+#box1{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+}
+#box1p{
+    color: white;
+    margin: 0 45%;
+}
+#box1p p{
+    font-size: 20px;
+}
+#box2{
+    height: 40px;
+    background-color: white;
+    width: 100%;
+}
+a:hover{
+    color: #ddbc95;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 6.2%;
+    color: black;
+}
+#thua{
+    width: 100%;
+    height: 10px;
+    background-color: white;
+}
+
+
+
+
+#box3{
+    width: 100%;
+    height: 2000px;
+    text-align: center;
+}
+.box3a{
+    width: 100%;
+    height: 130px;
+}
+.box3b{
+    margin: auto;
+    width: 65%;
+    height: 1650px;
+}
+.box3c{
+    width: 30%;
+    height: 300px;
+    margin: 1.5%;
+    float: left;
+}
+.box3d{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.box3d img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box3e{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(54, 49, 49, 0.466);
+    position: relative;
+    visibility: hidden;
+    opacity: 0;
+}
+.box3c:hover .box3e{
+    visibility: visible;
+    opacity: 100;
+}
+
+
+
+
+
+#box6{ 
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    background-color: #ececec;
+}
+.box6a{
+    width: 50%;
+    height: 65%;
+    background-color: white;
+    margin: auto;
+}
+.box6a1{
+    width: 100%;
+    height: 10%;
+    background-color: #ececec;
+}
+#box6b{
+    width: 50%;
+    height: 60px;
+    background-color: white;
+    margin: 2% auto;
+}
+.box6a2{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+}
+.box6a12{
+    font-size: 200%;
+}
+.box6a11{
+    font-size: 119%;
+}
+.box6a13{
+    font-size: 119%;
+    margin: 0 137px;
+}
+.box6d{
+    margin: auto;
+    width: 60%;
+    height: 50px;
+}
+.box6d1{
+    width: 80%;
+    height: 44px;
+}
+.box6d2{
+    width: 16%;
+    height: 46px;
+}
+#box6b i{
+    color: black;
+    font-size: 200%;
+    margin: 2% -0.8%;
+    transition: 0.3s;
+}
+#box6b i:hover{
+    color: #f2726a;
+    transform: translate(10px,-10px);
+}
+.box6c{
+    background-color: black;
+    height: 18%;
+    width: 100%;
+}
